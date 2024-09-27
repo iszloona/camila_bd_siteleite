@@ -1,0 +1,208 @@
+/* Estilo básico do corpo com imagem de fundo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container do formulário de cadastro */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Estilo do título */
+h1 {
+    color: #E53B18; /* Cor alterada para o título */
+}
+
+/* Estilo dos campos de formulário */
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+/* Estilo do botão de cadastro */
+button {
+    width: 100%;
+    background-color: #E53B18; /* Cor alterada para o botão */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c33215; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo do link para o login */
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #E53B18; /* Cor do link para combinar */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a informação do usuário */
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-info p {
+    margin: 0;
+}
+
+/* Container do feed */
+.feed-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo dos posts */
+.post {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Conteúdo do post */
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
+/* Área de ações (curtir) */
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ed4956;
+    margin-right: 10px;
+}
+
+.like-button i {
+    transition: transform 0.2s ease;
+}
+
+.like-button:hover i {
+    transform: scale(1.1);
+}
+
+.like-count {
+    font-weight: bold;
+    color: #262626;
+}
+
+/* Área de comentários */
+.comments {
+    width: 300px;
+    padding: 20px;
+    border-left: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    resize: none;
+    height: 50px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.comment-button {
+    width: 100%;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comment-button:hover {
+    background-color: #007bff;
+}
+
+/* Lista de comentários */
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.comment-list li {
+    background-color: #fafafa;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+/* Centralização do cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #262626;
+}

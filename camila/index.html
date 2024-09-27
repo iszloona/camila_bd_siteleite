@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image:url(img/backcorrida.jpg) ; /* Caminho da imagem */
+        background-size: cover; /* Cobrir a tela inteira */
+        background-position: center; /* Centralizar a imagem */
+    margin: 0;
+    padding: 0;
+}
+       
+    </style>
+    
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="signupForm">
+            <input type="text" id="idUser" placeholder="Usuário" required>
+            <input type="text" id="name_user" placeholder="Nome Completo" required>
+            <input type="date" id="date_user" placeholder="Data de Aniversário" required>
+            <input type="email" id="email_user" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Login</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
